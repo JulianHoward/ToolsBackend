@@ -5,3 +5,4 @@ module.exports = {
     DB: process.env.DB_NAME || "tools",
     dialect: "mysql",
 }
+// changing db
