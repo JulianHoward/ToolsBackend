@@ -1,8 +1,8 @@
 module.exports = {
-    HOST: process.env.DB_HOST || "localhost",
-    USER: process.env.DB_USER || "root",
-    PASSWORD: process.env.DB_PASSWORD || "root",
-    DB: process.env.DB_NAME || "tools",
+    HOST: process.env.MYSQLHOST || "localhost",
+    USER: process.env.MYSQLUSER || "root",
+    PASSWORD: process.env.MYSQLPASSWORD || "root",
+    DB: process.env.MYSQL_DATABASE || "tools",
     dialect: "mysql",
 }
 // changing db
